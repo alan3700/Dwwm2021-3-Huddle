@@ -445,7 +445,6 @@ footer .container *{
     padding: 0px;
 }
 .footer-list-reseaux li{
-    display: flex;
     justify-content: space-around;
 }
 .list-contact{
@@ -470,9 +469,16 @@ footer .container *{
 @media screen and (max-width:36em){ /*equivalent a 576px*/
     .contact-content{
         margin-right: 0rem;
+    } 
+    .grid-container-footer{
+        display: block;
     }
-    
-    .footer-link-two,
+    .grid-section{
+        margin-bottom: 20rem;
+    }
+    .footer-link-one{
+        display: block;
+    }
     .footer-link-one,
     .footer-list-reseaux{
         margin-right: 0rem;
@@ -480,9 +486,6 @@ footer .container *{
     .footer-list-reseaux{
         min-width: 118rem;
         margin-left: 100rem;
-    }
-    .footer-link-two{
-        margin-top: 0rem;
     }
     .copyright{
         text-align: center;
