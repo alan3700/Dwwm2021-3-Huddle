@@ -418,18 +418,14 @@ footer img {
 .contact-content p{
     margin-bottom: 30rem;
 }
-.footer-link-two,
 .footer-link-one,
 .footer-list-reseaux{
+    display: flex;
     font-size: 14rem;
-    margin-right: 110rem;
     margin-top: 65rem;
 }
 .footer-link-two{
     margin-right: 190rem;
-}
-.footer-list-reseaux {
-    display: flex;
 }
 .reseaux-picto-logo{
     display: grid;
@@ -458,7 +454,14 @@ footer .container *{
 .copyright{
     text-align: right;
 }
-
+.grid-container-footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.grid-section {
+    margin-right: 120rem;
+    min-width: 100rem;
+}
 @media screen and (max-width:48em){ /*equivalent a 768px*/
     footer .container{
         display: block;
